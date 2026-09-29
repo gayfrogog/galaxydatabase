@@ -1,4 +1,4 @@
-<database timestamp="1790659528">
+<database timestamp="1790692997">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -662,7 +662,7 @@ The enterable Domes on the Comet Observatory. Plays an appear and disappear BRK 
 A group of many rotating asteroids that are found in the galaxy select of the Domes.
 
 -- CLASS NOTES --
-</notes>
+Decorative asteroid object used in the AstroDome stage select. Appears and begins its AstroDomeAsteroid BCK animation.</notes>
 		<files />
 	</object>
 	<object id="AstroDomeBlueStar">
@@ -674,7 +674,9 @@ A group of many rotating asteroids that are found in the galaxy select of the Do
 A variation of the Pull Star that takes you to the galaxy select within Domes.
 
 -- CLASS NOTES --
-</notes>
+A unique pull star used to transition to the AstroDome stage selector. Utilises the same effect data as the regular GCaptureTarget.
+
+Plays sound effect SE_SY_GCAPTURE_APPEAR on load and SE_OJ_LV_MAGIC_PNT_G_POINT when player is within a certain distance. Plays SE_OJ_MAGIC_PNT_G_ON when the cursor hovers over it.</notes>
 		<files />
 	</object>
 	<object id="AstroDomeComet">
