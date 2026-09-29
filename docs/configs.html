@@ -25,8 +25,8 @@
 			</p>
 			<table class="data"
 				<tr><th></th><th>Unknown configs</th><th>Known configs</th><th>Finished configs</th><th>Total configs</th></tr>
-				<tr><th>Relative</th><td class="punknown">16.00%</td><td class="pknown">5.67%</td><td class="pfinished">78.33%</td><td>100%</td></tr>
-				<tr><th>Absolute</th><td class="punknown">144</td><td class="pknown">51</td><td class="pfinished">705</td><td>900</td></tr>
+				<tr><th>Relative</th><td class="punknown">15.78%</td><td class="pknown">5.67%</td><td class="pfinished">78.56%</td><td>100%</td></tr>
+				<tr><th>Absolute</th><td class="punknown">142</td><td class="pknown">51</td><td class="pfinished">707</td><td>900</td></tr>
 			</table>
 			<p>
 				You can download the latest database for Whitehole here:<br>
@@ -71,8 +71,15 @@ Additionally plays sound effects corresponding to startSound and startLevelSound
 				<tr><td class="pknown">&nbsp;</td><td><a href="config_AstroDomeBlueStar.html">AstroDomeBlueStar</a></td><td><p>A unique pull star used to transition to the AstroDome stage selector. Utilises the same effect data as the regular GCaptureTarget.
 
 Plays sound effect SE_SY_GCAPTURE_APPEAR on load and SE_OJ_LV_MAGIC_PNT_G_POINT when player is within a certain distance. Plays SE_OJ_MAGIC_PNT_G_ON when the cursor hovers over it.</p></td><td>SMG1</td></tr>
-				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroDomeComet.html">AstroDomeComet</a></td><td><p></p></td><td>SMG1</td></tr>
-				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroDomeDemoAstroGalaxy.html">AstroDomeDemoAstroGalaxy</a></td><td><p></p></td><td>SMG1</td></tr>
+				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroDomeComet.html">AstroDomeComet</a></td><td><p>The prankster comet object that appears above MiniatureGalaxy icons when a comet is triggered. Plays a different animation for each valid colour (Red, Blue, White, Yellow, Purple). These colours correspond to their respective prankster comet types.
+
+Additionally has a Bloom model</p></td><td>SMG1</td></tr>
+				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroDomeDemoAstroGalaxy.html">AstroDomeDemoAstroGalaxy</a></td><td><p>The small Comet Observatory model utilised in the galaxy selector. Acts as a variant of SimpleMapObj with an additional feature for its use in the galaxy selector. It has a three frame BRK file that brightens and darkens the observatory depending on which Grand Stars have been collected.
+
+If Grand Star 5 has been collected, freezes on frame 2.
+If Grand Star 3 has been collected, freezes on frame 1.
+Otherwise, freezes on frame 0.
+</p></td><td>SMG1</td></tr>
 				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroDomeDemoStarter.html">AstroDomeDemoStarter</a></td><td><p></p></td><td>SMG1</td></tr>
 				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroDomeGalaxySelector.html">AstroDomeGalaxySelector</a></td><td><p></p></td><td>SMG1</td></tr>
 				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroDomeSky.html">AstroDomeSky</a></td><td><p></p></td><td>SMG1</td></tr>

@@ -1,4 +1,4 @@
-<database timestamp="1790692997">
+<database timestamp="1790694578">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -688,7 +688,9 @@ Plays sound effect SE_SY_GCAPTURE_APPEAR on load and SE_OJ_LV_MAGIC_PNT_G_POINT 
 The decoration used when a galaxy in the galaxy select has a Comet.
 
 -- CLASS NOTES --
-</notes>
+The prankster comet object that appears above MiniatureGalaxy icons when a comet is triggered. Plays a different animation for each valid colour (Red, Blue, White, Yellow, Purple). These colours correspond to their respective prankster comet types.
+
+Additionally has a Bloom model</notes>
 		<files />
 	</object>
 	<object id="AstroDomeDemoAstroGalaxy">
@@ -700,8 +702,16 @@ The decoration used when a galaxy in the galaxy select has a Comet.
 A small version of the Comet Observatory that can be seen when the player flies to a galaxy in a Dome.
 
 -- CLASS NOTES --
+The small Comet Observatory model utilised in the galaxy selector. Acts as a variant of SimpleMapObj with an additional feature for its use in the galaxy selector. It has a three frame BRK file that brightens and darkens the observatory depending on which Grand Stars have been collected.
+
+If Grand Star 5 has been collected, freezes on frame 2.
+If Grand Star 3 has been collected, freezes on frame 1.
+Otherwise, freezes on frame 0.
 </notes>
 		<files />
+		<field id="0" type="int" name="Color Frame" notes="If ColorChange.brk exists, this will define the color frame to be used." values="" />
+		<field id="1" type="int" name="Texture Frame" notes="If TexChange.btp/.btk exists, this will define the texture frame to be used." values="" />
+		<field id="2" type="int" name="Shadow Length" notes="If Shadow.bcsv exists, this defines the shadow's drop length." values="" />
 	</object>
 	<object id="AstroDomeDemoStarter">
 		<name>Level Select Fly-Out Cutscene</name>
