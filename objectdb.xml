@@ -1,4 +1,4 @@
-<database timestamp="1790947430">
+<database timestamp="1790948167">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -895,8 +895,9 @@ The decorative pipes in the Comet Observatory that power the Domes.
 A blue torchlight that was meant to be used in the Comet Observatory.
 
 -- CLASS NOTES --
-</notes>
+A SimpleEffectObj with an additional argument defining when the effect should appear relative to what Grand Star has been collected.</notes>
 		<files />
+		<field id="0" type="int" name="Observatory Stage" notes="Defines what Grand Star is required for the effect to enable." values="1 = Gateway, 2 = Terrace, 3 = Fountain, 4 = Kitchen, 5 = Bedroom, 6 = Engine" />
 	</object>
 	<object id="AstroTorchLightRed">
 		<name>Red Comet Observatory Torchlight</name>
@@ -907,8 +908,9 @@ A blue torchlight that was meant to be used in the Comet Observatory.
 The red torchlight used in the Comet Observatory.
 
 -- CLASS NOTES --
-</notes>
+A SimpleEffectObj with an additional argument defining when the effect should appear relative to what Grand Star has been collected.</notes>
 		<files />
+		<field id="0" type="int" name="Observatory Stage" notes="Defines what Grand Star is required for the effect to enable." values="1 = Gateway, 2 = Terrace, 3 = Fountain, 4 = Kitchen, 5 = Bedroom, 6 = Engine" />
 	</object>
 	<object id="AttackRock">
 		<name>Bowser Attack Rock [Fight]</name>
@@ -8025,8 +8027,9 @@ A generic particles effect with a clipping radius of 2500 units and a far clippi
 A sparkling effect that is used in the Comet Observatory.
 
 -- CLASS NOTES --
-</notes>
+A SimpleEffectObj with an additional argument defining when the effect should appear relative to what Grand Star has been collected.</notes>
 		<files />
+		<field id="0" type="int" name="Observatory Stage" notes="Defines what Grand Star is required for the effect to enable." values="1 = Gateway, 2 = Terrace, 3 = Fountain, 4 = Kitchen, 5 = Bedroom, 6 = Engine" />
 	</object>
 	<object id="EffectTicoS">
 		<name>Small Luma Sparkles</name>
@@ -8037,8 +8040,9 @@ A sparkling effect that is used in the Comet Observatory.
 A sparkling effect that is used in the Comet Observatory.
 
 -- CLASS NOTES --
-</notes>
+A SimpleEffectObj with an additional argument defining when the effect should appear relative to what Grand Star has been collected.</notes>
 		<files />
+		<field id="0" type="int" name="Observatory Stage" notes="Defines what Grand Star is required for the effect to enable." values="1 = Gateway, 2 = Terrace, 3 = Fountain, 4 = Kitchen, 5 = Bedroom, 6 = Engine" />
 	</object>
 	<object id="ElectricBall">
 		<name>Rotating Electric Balls</name>
