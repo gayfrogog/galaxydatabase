@@ -3,7 +3,7 @@
     "Name": "AstroDomeBlueStar",
     "Notes": "A unique pull star used to transition to the AstroDome stage selector. Utilises the same effect data as the regular GCaptureTarget.\n\nPlays sound effect SE_SY_GCAPTURE_APPEAR on load and SE_OJ_LV_MAGIC_PNT_G_POINT when player is within a certain distance. Plays SE_OJ_MAGIC_PNT_G_ON when the cursor hovers over it.",
     "Games": 1,
-    "Progress": 1,
+    "Progress": 2,
     "Parameters": {
         "DemoCast": {
             "Games": 0,
