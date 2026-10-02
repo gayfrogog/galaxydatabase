@@ -25,8 +25,8 @@
 			</p>
 			<table class="data"
 				<tr><th></th><th>Unknown configs</th><th>Known configs</th><th>Finished configs</th><th>Total configs</th></tr>
-				<tr><th>Relative</th><td class="punknown">15.44%</td><td class="pknown">5.44%</td><td class="pfinished">79.11%</td><td>100%</td></tr>
-				<tr><th>Absolute</th><td class="punknown">139</td><td class="pknown">49</td><td class="pfinished">712</td><td>900</td></tr>
+				<tr><th>Relative</th><td class="punknown">15.22%</td><td class="pknown">5.44%</td><td class="pfinished">79.33%</td><td>100%</td></tr>
+				<tr><th>Absolute</th><td class="punknown">137</td><td class="pknown">49</td><td class="pfinished">714</td><td>900</td></tr>
 			</table>
 			<p>
 				You can download the latest database for Whitehole here:<br>
@@ -84,8 +84,12 @@ Otherwise, freezes on frame 0.
 				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroDomeGalaxySelector.html">AstroDomeGalaxySelector</a></td><td><p></p></td><td>SMG1</td></tr>
 				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroDomeSky.html">AstroDomeSky</a></td><td><p>The skybox utilised in all 6 AstroDome layers. Has an obj_arg that changes the model used by the object. Plays a BTK animation for the model itself and has BTK files to show and hide the model when appropriate.</p></td><td>SMG1</td></tr>
 				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroEffectObj.html">AstroEffectObj</a></td><td><p>A SimpleEffectObj with an additional argument defining when the effect should appear relative to what Grand Star has been collected.</p></td><td>SMG1</td></tr>
-				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroMapBoard.html">AstroMapBoard</a></td><td><p></p></td><td>SMG1</td></tr>
-				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroMapObj.html">AstroMapObj</a></td><td><p></p></td><td>SMG1</td></tr>
+				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroMapBoard.html">AstroMapBoard</a></td><td><p>The map board in the center of the observatory that can be interacted with via Polari (Butler). Has no appearance riddle sound effect for use in cutscenes. Otherwise inherits SimpleMapObj.
+
+The game dynamically replaces the texture MapDummy with GalaxyMapResTIMG.</p></td><td>SMG1</td></tr>
+				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroMapObj.html">AstroMapObj</a></td><td><p>An object class designed specifically for the Comet Observatory and its multiple stages of activation. Otherwise inherits most arguments from SimpleMapObjFarMax.
+
+Object will "activate" or start active (having already played its activation animations) if certain conditions are met.</p></td><td>SMG1</td></tr>
 				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroOverlookArea.html">AstroOverlookArea</a></td><td><p></p></td><td>SMG1</td></tr>
 				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroOverlookObj.html">AstroOverlookObj</a></td><td><p></p></td><td>SMG1</td></tr>
 				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroSimpleObj.html">AstroSimpleObj</a></td><td><p></p></td><td>SMG1</td></tr>
