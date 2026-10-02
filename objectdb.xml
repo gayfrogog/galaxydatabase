@@ -1,4 +1,4 @@
-<database timestamp="1790946660">
+<database timestamp="1790946925">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -758,8 +758,9 @@ A controller for the galaxy select in the Domes.
 The starry ocean sky models used in the Domes. 
 
 -- CLASS NOTES --
-</notes>
+The skybox utilised in all 6 AstroDome layers. Has an obj_arg that changes the model used by the object. Plays a BTK animation for the model itself and has BTK files to show and hide the model when appropriate.</notes>
 		<files />
+		<field id="0" type="int" name="Sky Model" notes="Selects one of six available models for the object to use." values="1 = Terrace, 2 = Fountain, 3 = Kitchen, 4 = Bedroom, 5 = Engine, 6 = Garden" />
 	</object>
 	<object id="AstroDomeSkyA">
 		<name>Bigmouth Sky</name>
