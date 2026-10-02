@@ -1,4 +1,4 @@
-<database timestamp="1790694922">
+<database timestamp="1790945573">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -722,7 +722,7 @@ Otherwise, freezes on frame 0.
 Sets up the cutscene for when the player flies to a galaxy in a Dome.
 
 -- CLASS NOTES --
-</notes>
+An object that starts the cutscene for entering star select in AstroDome. Plays multiple sound effects and animations.</notes>
 		<files />
 	</object>
 	<object id="AstroDomeEntrance">
