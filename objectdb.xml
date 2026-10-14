@@ -1,4 +1,4 @@
-<database timestamp="1791984278">
+<database timestamp="1791989736">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -3449,8 +3449,10 @@ A Koopa Troopa that throws boomerangs to attack the player. These boomerangs can
 The Topman boss fought in Battlerock Galaxy and Dreadnought Galaxy.
 
 -- CLASS NOTES --
-</notes>
+A large Topman boss. Appears from the sky with a cutscene when battle is activated. In order to defeat it, the player must jump on its head and spin attack it to push it into ElectricRail objects that surround his arena. In SMG1, it will always spawn a Power Star when defeated, which requires a properly configured Scenario entry.</notes>
 		<files />
+		<field id="0" type="bool" name="Enable Returning" notes="If SW_A is valid and deactivated, it will always move towards its initial position." values="" />
+		<field id="7" type="bool" name="Spawned Enemy Type" notes="Determines the number and type of Begoman enemies spawned by BossBegoman" values="-1 = 3 Topmini, 0 = 2 Spiky Topmen" />
 	</object>
 	<object id="BossBussun">
 		<name>Glamdozer</name>
