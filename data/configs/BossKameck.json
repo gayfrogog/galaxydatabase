@@ -3,7 +3,7 @@
     "Name": "BossKameck",
     "Notes": "A large boss Kameck called \"Kamella\". Before the battle the model is invisible. In order to defeat it, the player must throw Koopa shells back at Kamella three times. Kamella shoots alternating fire balls and Koopa shells. Requires BossKameckMoveRail",
     "Games": 1,
-    "Progress": 1,
+    "Progress": 2,
     "Parameters": {
         "Obj_arg0": {
             "Name": "Power Star ID",

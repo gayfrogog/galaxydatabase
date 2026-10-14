@@ -1,4 +1,4 @@
-<database timestamp="1791992799">
+<database timestamp="1791994569">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -3551,15 +3551,16 @@ A large boss Kameck called "Kamella". Before the battle the model is invisible. 
 	</object>
 	<object id="BossKameckMoveRail">
 		<name>Kamella Subpath</name>
-		<flags games="1" known="1" complete="1" needsPaths="0" />
+		<flags games="1" known="1" complete="1" needsPaths="1" />
 		<category id="4" />
 		<preferredfile name="ChildObj" />
 		<notes>-- OBJECT NOTES --
 Specifies an individual subpath that Kamella can move on.
 
 -- CLASS NOTES --
-</notes>
+Objects that define rail positions for BossKameck</notes>
 		<files />
+		<field id="0" type="int" name="Rail Number" notes="" values="" />
 	</object>
 	<object id="BossPlanetR50">
 		<name>"BossPlanetR50" [Unfinished]</name>

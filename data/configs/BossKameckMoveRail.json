@@ -1,8 +1,42 @@
 {
     "InternalName": "BossKameckMoveRail",
     "Name": "BossKameckMoveRail",
-    "Notes": "",
+    "Notes": "Objects that define rail positions for BossKameck",
     "Games": 1,
-    "Progress": 0,
-    "Parameters": {}
+    "Progress": 2,
+    "Parameters": {
+        "Obj_arg0": {
+            "Name": "Rail Number",
+            "Type": "Integer",
+            "Games": 1,
+            "Needed": true,
+            "Description": "",
+            "Values": [],
+            "Exclusives": []
+        },
+        "Point_arg0": {
+            "Name": "Disable Stopping",
+            "Type": "Boolean",
+            "Games": 1,
+            "Needed": false,
+            "Description": "Disables Kamella's ability to pause movement at this path point.",
+            "Values": [
+                {
+                    "Value": "-1",
+                    "Notes": "No"
+                },
+                {
+                    "Value": "0",
+                    "Notes": "Yes"
+                }
+            ],
+            "Exclusives": []
+        },
+        "Rail": {
+            "Games": 1,
+            "Needed": true,
+            "Description": "The path that it can move on.",
+            "Exclusives": []
+        }
+    }
 }
