@@ -1,4 +1,4 @@
-<database timestamp="1790950367">
+<database timestamp="1791984278">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -846,8 +846,9 @@ The game dynamically replaces the texture MapDummy with GalaxyMapResTIMG.</notes
 Displays the labels for the different parts of the Comet Observatory. Requires an actual AstroOverlookObj placed in the stage.
 
 -- CLASS NOTES --
-</notes>
+An area that determines the text layout to use for the Observatory's viewing platforms. Must be used in conjunction with AstroOverlookObj.</notes>
 		<files />
+		<field id="0" type="int" name="Text Layout" notes="Determines the layout used by the game. Used specifically to differentiate the Front and Back viewing platforms." values="0 = Front, 1 = Back" />
 	</object>
 	<object id="AstroOverlookObj">
 		<name>Show Comet Observatory Labels Controller</name>
@@ -858,7 +859,9 @@ Displays the labels for the different parts of the Comet Observatory. Requires a
 A controller that will show the name labels for the different parts of the Comet Observatory if the player stands inside an AstroOverlookAreaCylinder.
 
 -- CLASS NOTES --
-</notes>
+A controller object that checks for the AstroOverlookArea the player is currently in, checks its obj_arg0 value and sets the respective text layout. Must be used in conjunction with AstroOverlookArea.
+
+The text layout is determined by AstroNamePlateData.bcsv</notes>
 		<files />
 	</object>
 	<object id="AstroParking">
@@ -30242,8 +30245,11 @@ The bunny NPC that runs away from the player after talking to it. If it runs awa
 The colorful trident-shaped planet.
 
 -- CLASS NOTES --
-</notes>
+A variant of SimpleMapObjFarMax that has an additional function for creating a GalaxyNamePlate for use with AstroOverlookArea.</notes>
 		<files />
+		<field id="0" type="int" name="Color Frame" notes="If ColorChange.brk exists, this will define the color frame to be used." values="" />
+		<field id="1" type="int" name="Texture Frame" notes="If TexChange.btp/.btk exists, this will define the texture frame to be used." values="" />
+		<field id="2" type="int" name="Shadow Length" notes="If Shadow.bcsv exists, this defines the shadow's drop length." values="" />
 	</object>
 	<object id="Tripod2Boss">
 		<name>Megaleg [Duplicate]</name>

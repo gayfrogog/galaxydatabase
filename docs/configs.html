@@ -25,8 +25,8 @@
 			</p>
 			<table class="data"
 				<tr><th></th><th>Unknown configs</th><th>Known configs</th><th>Finished configs</th><th>Total configs</th></tr>
-				<tr><th>Relative</th><td class="punknown">15.22%</td><td class="pknown">5.44%</td><td class="pfinished">79.33%</td><td>100%</td></tr>
-				<tr><th>Absolute</th><td class="punknown">137</td><td class="pknown">49</td><td class="pfinished">714</td><td>900</td></tr>
+				<tr><th>Relative</th><td class="punknown">14.89%</td><td class="pknown">5.44%</td><td class="pfinished">79.67%</td><td>100%</td></tr>
+				<tr><th>Absolute</th><td class="punknown">134</td><td class="pknown">49</td><td class="pfinished">717</td><td>900</td></tr>
 			</table>
 			<p>
 				You can download the latest database for Whitehole here:<br>
@@ -90,9 +90,11 @@ The game dynamically replaces the texture MapDummy with GalaxyMapResTIMG.</p></t
 				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroMapObj.html">AstroMapObj</a></td><td><p>An object class designed specifically for the Comet Observatory and its multiple stages of activation. Otherwise inherits most arguments from SimpleMapObjFarMax.
 
 Object will "activate" or start active (having already played its activation animations) if certain conditions are met.</p></td><td>SMG1</td></tr>
-				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroOverlookArea.html">AstroOverlookArea</a></td><td><p></p></td><td>SMG1</td></tr>
-				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroOverlookObj.html">AstroOverlookObj</a></td><td><p></p></td><td>SMG1</td></tr>
-				<tr><td class="punknown">&nbsp;</td><td><a href="config_AstroSimpleObj.html">AstroSimpleObj</a></td><td><p></p></td><td>SMG1</td></tr>
+				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroOverlookArea.html">AstroOverlookArea</a></td><td><p>An area that determines the text layout to use for the Observatory's viewing platforms. Must be used in conjunction with AstroOverlookObj.</p></td><td>SMG1</td></tr>
+				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroOverlookObj.html">AstroOverlookObj</a></td><td><p>A controller object that checks for the AstroOverlookArea the player is currently in, checks its obj_arg0 value and sets the respective text layout. Must be used in conjunction with AstroOverlookArea.
+
+The text layout is determined by AstroNamePlateData.bcsv</p></td><td>SMG1</td></tr>
+				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AstroSimpleObj.html">AstroSimpleObj</a></td><td><p>A variant of SimpleMapObjFarMax that has an additional function for creating a GalaxyNamePlate for use with AstroOverlookArea.</p></td><td>SMG1</td></tr>
 				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AttackRock.html">AttackRock</a></td><td><p>Usually not visible but they get activated by Bowser's attacks. Once it appears, it falls down onto ground. Then, it becomes a yellow orb that can be smashed into Bowser. Depending on the encounter number, it can also emit shockwaves.</p></td><td>SMG2</td></tr>
 				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AttackRockFinal.html">AttackRockFinal</a></td><td><p>These are usually not visible until Bowser activates them during the final fight. These fly to their actual position and will remain there. The orb can be smashed into Bowser.</p></td><td>SMG2</td></tr>
 				<tr><td class="pfinished">&nbsp;</td><td><a href="config_AttackRockTutorial.html">AttackRockTutorial</a></td><td><p>A rock that appears from the ground and breaks into a yellow orb which can be smashed into KoopaSeals.</p></td><td>SMG2</td></tr>
