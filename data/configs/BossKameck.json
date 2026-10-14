@@ -1,8 +1,51 @@
 {
     "InternalName": "BossKameck",
     "Name": "BossKameck",
-    "Notes": "",
+    "Notes": "A large boss Kameck called \"Kamella\". Before the battle the model is invisible. In order to defeat it, the player must throw Koopa shells back at Kamella three times. Kamella shoots alternating fire balls and Koopa shells. Requires BossKameckMoveRail",
     "Games": 1,
-    "Progress": 0,
-    "Parameters": {}
+    "Progress": 1,
+    "Parameters": {
+        "Obj_arg0": {
+            "Name": "Power Star ID",
+            "Type": "Integer",
+            "Games": 1,
+            "Needed": true,
+            "Description": "",
+            "Values": [],
+            "Exclusives": []
+        },
+        "Obj_arg7": {
+            "Name": "Camera Register Index",
+            "Type": "Integer",
+            "Games": 1,
+            "Needed": false,
+            "Description": "Specifies the starting index of the vector register camera.",
+            "Values": [],
+            "Exclusives": []
+        },
+        "SW_A": {
+            "Games": 1,
+            "Needed": true,
+            "Description": "",
+            "Exclusives": []
+        },
+        "SW_AWAKE": {
+            "Games": 1,
+            "Description": "Enables rendering and resumes updates when this switch is active.",
+            "Exclusives": []
+        },
+        "AppearPowerStar": {
+            "Games": 1,
+            "Needed": true,
+            "Description": "",
+            "Exclusives": []
+        },
+        "Camera": {
+            "Games": 1,
+            "Needed": false,
+            "Description": "",
+            "Values": [],
+            "Exclusives": []
+        }
+    }
 }

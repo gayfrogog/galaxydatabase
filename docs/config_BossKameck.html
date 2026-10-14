@@ -18,7 +18,28 @@
 		</header>
 		<div class="contents">
 			<h1>Config: BossKameck</h1>
-			<p></p>
+			<p>A large boss Kameck called "Kamella". Before the battle the model is invisible. In order to defeat it, the player must throw Koopa shells back at Kamella three times. Kamella shoots alternating fire balls and Koopa shells. Requires BossKameckMoveRail</p>
+			<h2>Arguments</h2>
+			<table width="100%">
+				<colgroup><col width=6%><col width=4%><col width=5%><col width=5%><col width=50%><col width=30%></colgroup>
+				<tr><th>Name</th><th>Type</th><th>Games</th><th>Required?</th><th>Description</th><th>Values</th></tr>
+				<tr><td>Obj_arg0</td><td>Integer</td><td>SMG1</td><td>True</td><td><p><b>Power Star ID</b>: </p></td><td><ul></ul></td></tr>
+				<tr><td>Obj_arg7</td><td>Integer</td><td>SMG1</td><td>False</td><td><p><b>Camera Register Index</b>: Specifies the starting index of the vector register camera.</p></td><td><ul></ul></td></tr>
+			</table>
+			<h2>Switches</h2>
+			<table width="100%">
+				<colgroup><col width=10%><col width=5%><col width=5%><col width=80%></colgroup>
+				<tr><th>Name</th><th>Games</th><th>Required?</th><th>Description</th></tr>
+				<tr><td>SW_A</td><td>SMG1</td><td>True</td><td><p></p></td></tr>
+				<tr><td>SW_AWAKE</td><td>SMG1</td><td>False</td><td><p>Enables rendering and resumes updates when this switch is active.</p></td></tr>
+			</table>
+			<h2>Setup</h2>
+			<table width="100%">
+				<colgroup><col width=6%><col width=5%><col width=5%><col width=50%><col width=34%></colgroup>
+				<tr><th>Name</th><th>Games</th><th>Required?</th><th>Description</th><th>Values</th></tr>
+				<tr><td>AppearPowerStar</td><td>SMG1</td><td>True</td><td><p></p></td><td><ul></ul></td></tr>
+				<tr><td>Camera</td><td>SMG1</td><td>False</td><td><p></p></td><td><ul></ul></td></tr>
+			</table>
 		</div>
 	</body>
 </html>

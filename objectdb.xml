@@ -1,4 +1,4 @@
-<database timestamp="1791989736">
+<database timestamp="1791992799">
 	<categories>
 		<category id="0">Stage Parts</category>
 		<category id="1">Level Features</category>
@@ -3530,8 +3530,10 @@ A set of clouds. If SW_A is triggered, they will turn gray. In this state, they 
 A large Magikoopa fought in Space Junk Galaxy.
 
 -- CLASS NOTES --
-</notes>
+A large boss Kameck called "Kamella". Before the battle the model is invisible. In order to defeat it, the player must throw Koopa shells back at Kamella three times. Kamella shoots alternating fire balls and Koopa shells. Requires BossKameckMoveRail</notes>
 		<files />
+		<field id="0" type="int" name="Power Star ID" notes="" values="" />
+		<field id="7" type="int" name="Camera Register Index" notes="Specifies the starting index of the vector register camera." values="" />
 	</object>
 	<object id="BossKameck2">
 		<name>Ghost Ship Kamella</name>
@@ -3542,8 +3544,10 @@ A large Magikoopa fought in Space Junk Galaxy.
 A stronger version of Kamella that is fought in Deep Dark Galaxy.
 
 -- CLASS NOTES --
-</notes>
+A large boss Kameck called "Kamella". Before the battle the model is invisible. In order to defeat it, the player must throw Koopa shells back at Kamella three times. Kamella shoots alternating fire balls and Koopa shells. Requires BossKameckMoveRail</notes>
 		<files />
+		<field id="0" type="int" name="Power Star ID" notes="" values="" />
+		<field id="7" type="int" name="Camera Register Index" notes="Specifies the starting index of the vector register camera." values="" />
 	</object>
 	<object id="BossKameckMoveRail">
 		<name>Kamella Subpath</name>
